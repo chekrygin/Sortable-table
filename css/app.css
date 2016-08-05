@@ -1,0 +1,35 @@
+table {
+	width: 100%;
+	border: 1px solid #000;
+	max-width: 500px;
+	margin: 0 auto;
+	border-collapse: collapse;
+	text-align: center;
+}
+table th {border-left: 1px solid #000;}
+table td {
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+}
+table input[type="text"] {
+	-webkit-box-sizing: border-box;
+	border: 1px solid #000;
+	box-sizing: border-box;
+	display: none;
+	height: 30px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+table .edit input[type="text"] {display: block;}
+table .text {
+	position: relative;
+	padding: 5px;
+}
+.sort-top,
+.sort-bottom {display: none;}
+.bottom .sort-top,
+.top .sort-bottom {display: none;}
+.top .sort-top,
+.bottom .sort-bottom {display: inline;}
