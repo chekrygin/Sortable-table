@@ -27,6 +27,11 @@ table .text {
 	position: relative;
 	padding: 5px;
 }
+.btn-delete {
+	margin: 15px auto;
+	display: block;
+	width: 100px;
+}
 .sort-top,
 .sort-bottom {display: none;}
 .bottom .sort-top,
